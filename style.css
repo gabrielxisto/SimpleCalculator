@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    text-align: center;
+}
+body {
+}
+.calculator {
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: 320px;
+    background-color: #c0c0c0;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+#display {
+    width: 250px;
+    height: 40px;
+    text-align: right;
+    background-color: black;
+    font-size: 18px;
+    top: 2px;
+    color: #ffffff;
+    border: none;
+}
+.btnTop{
+    color: white;
+    background-color: #797676;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: none;
+    transition: 0.5s;
+}
+.btnNum {
+    color: white;
+    background-color: #a29f9f;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: none;
+    transition: 0.5s;
+
+}
+.btnMath {
+    color: white;
+    background-color: #797676;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: none;
+    transition: 0.5s;
+
+}
+.btnOpps {
+    color: white;
+    background-color: #ff9933;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: none;
+    transition: 0.5s;
+}
+
+
+
+.btnTop:hover{
+    color: white;
+    background-color: #646262;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+.btnNum:hover {
+    color: white;
+    background-color: #8c8989;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+.btnMath:hover {
+    color: white;
+    background-color: #646262;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+.btnOpps:hover {
+    color: white;
+    background-color: #9a642b;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
